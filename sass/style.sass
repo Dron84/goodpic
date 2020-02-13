@@ -1,0 +1,165 @@
+.col-xs-12
+	margin-top: 20px
+	margin-bottom: 20px
+.clear-40
+	clear: both
+	widows: 100%
+	height: 40px
+.btn-search
+	margin: 0
+	height: 35px
+	width: 35px
+	border: 1px solid $btn-bg-normal
+	color: $text-color-normal
+	border-radius: 5px
+	&:hover
+		background-color: $btn-bg-normal
+		color: $btn-text-normal
+.container-fluid .row div
+	margin: 0
+	padding: 0
+
+@media screen and (min-width: 1200px)
+	.container-fluid .row div
+		margin: auto
+		padding: 0
+
+input
+	margin: 0
+	height: 35px
+	width: 150px
+	border: 1px solid $btn-bg-normal
+	color: $text-color-normal
+	border-radius: 5px
+	&::placeholder
+		padding: 4px
+		color: $text-color-normal
+	&:focus
+		border: 1px solid $btn-bg-normal
+		background-color: $btn-bg-normal
+		color: $btn-text-normal
+		&::placeholder
+			color: $btn-text-normal
+.navbar-nav
+	li
+		margin-left: 10px
+		margin-right: 10px
+		min-height: 40px
+		min-width: 130px
+		border-radius: 5px
+		border: 1px solid $btn-bg-normal
+		background-color: $btn-bg-normal
+		vertical-align: middle
+		padding: 0px
+		text-decoration: none
+		text-transform: uppercase
+		vertical-align: middle
+		a
+			width: 100%
+			height: 100%
+			color: $btn-text-normal !important
+		&:hover
+			border: 1px solid $btn-bg-normal
+			background-color: $btn-text-normal
+			color: $text-color-normal !important
+			a
+				color: $text-color-normal !important
+.navbar-toggler
+	border-color: $btn-bg-normal !important
+	border: 1px solid $btn-bg-normal !important
+	color: $btn-bg-normal !important
+	&:hover
+		border: 1px solid $text-color-normal !important
+		color: $text-color-normal !important
+.flex-box
+	margin-top: 40px
+	margin-bottom: 40px
+	width: 100%
+	display: flex
+	flex-wrap: wrap
+	justify-content: center
+	align-items: stretch
+	align-content: stretch
+	.flex-item
+		display: block
+		cursor: pointer
+		margin: 15px
+		width: 400px
+		min-height: auto
+		overflow: hidden
+		border: 1px solid $btn-bg-normal
+		border-radius: 5px
+		a
+			text-decoration: none
+			text-transform: lowercase
+			color: $btn-text-normal
+			&:hover
+				color: $btn-text-hover
+		&.image_info
+			display: block
+.image
+	height: 200px
+	&_info
+		color: white
+		display: none
+		position: absolute
+		padding-top: 50px
+		width: 100%
+		height: 100%
+		top: 0px
+		background-color: white
+		-webkit-transition: all 5s ease
+		-moz-transition: all 5s ease
+		-o-transition: all 5s ease
+		-ms-transition: all 5s ease
+		transition: all 5s ease
+	&_img
+		position: relative
+		height: 100%
+		width: 100%
+		display: block
+		&:hover
+			.image_info
+				background-color: $img-bg-normal
+				display: block
+.flex-item-left
+	justify-content: flex-start
+.flex-item-right
+	justify-content: flex-end
+.pagination
+	margin: auto
+.cart_txt
+	font-size: 0.8em
+	// margin-top: -4px
+	margin-left: 4px
+
+button.button
+	margin-left: 10px
+	margin-right: 10px
+	min-height: 30px
+	min-width: 130px
+	border-radius: 5px
+	border: 1px solid $btn-bg-normal
+	background-color: $btn-bg-normal
+	vertical-align: middle
+	padding: 0px
+	text-decoration: none
+	text-transform: uppercase
+	vertical-align: middle
+	color: $btn-text-normal !important
+	&:hover
+		border: 1px solid $btn-bg-normal
+		background-color: $btn-text-normal
+		color: $text-color-normal !important
+		cursor: pointer
+	&:disabled
+		background-color: $btn-bg-normal
+		color: grey !important
+		&:hover
+			cursor: not-allowed
+a
+	text-decoration: none
+	text-transform: lowercase
+	color: $a-normal
+	&:hover
+		color: $a-hover

@@ -1,0 +1,17 @@
+{
+  "files": {
+    "/sass/index.sass": {
+      "output": "/css/index.css",
+      "format": "sass"
+    },
+    "/admin/sass/index.sass": {
+      "format": "sass"
+    }
+
+  },
+
+  "autowatch": [
+    "/sass/index.sass",
+    "/admin/sass/index.sass"
+  ]
+}

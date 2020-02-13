@@ -1,0 +1,27 @@
+{
+  "logger": {
+    "title": "Remote Sync"
+  },
+  "uploadOnSave": true,
+  "useAtomicWrites": false,
+  "deleteLocal": false,
+  "hostname": "bestia.timeweb.ru",
+  "port": "21",
+  "target": "/udachniekartinki/public_html",
+  "ignore": [
+    "*.sass-cache*",
+    ".compile-watch.json",
+    ".remote-sync.json",
+    ".DS_Store",
+    ".sass-cache",
+    ".git/**",
+    "*.sass"
+  ],
+  "watch": [
+    "/css/index.css",
+    "/admin/css/index.css"
+  ],
+  "username": "print74_goodpic",
+  "password": "And3rd242258",
+  "transport": "ftp"
+}
